@@ -26,7 +26,7 @@ def main():
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
     smtpObj.ehlo()
-    smtpObj.login('artur.2002.artur@gmail.com', 'wasd123wasd')
+    smtpObj.login('artur.2002.artur@gmail.com', "secret")
 
     for db in databases:
         try:
